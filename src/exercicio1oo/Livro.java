@@ -1,4 +1,8 @@
 package exercicio1oo;
 
-public class Livro {
+class Livro {
+    String Titulo;
+    String Autor;
+    String Genero;
+    Boolean Emprestado;
 }
