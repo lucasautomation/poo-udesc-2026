@@ -2,7 +2,7 @@ package exercicio1oo;
 
 public class TesteLivro {
     public static void main(String[] args){
-        Livro livro = new Livro()gg;
+        Livro livro = new Livro();
 
         livro.Autor = "Barbosa Ferraz";
         livro.Genero = "Policial";
