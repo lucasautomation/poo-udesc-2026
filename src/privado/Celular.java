@@ -22,3 +22,4 @@ public class Celular {
     public void setModelo(String modelo) {this.modelo = modelo;}
     public void setAno(int ano) {this.ano = ano;}
 }
+

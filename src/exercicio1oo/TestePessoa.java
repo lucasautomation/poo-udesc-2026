@@ -1,13 +1,13 @@
 package exercicio1oo;
 
-class TestePessoa {
+public class TestePessoa {
     static void main(String[] args) {
-        Pessoa fulano = new Pessoa();
+        Pessoa mobile = new Pessoa("",1985);
 
-        fulano.DataNascimento = 1985;
-        fulano.nome = "Pereira";
+        mobile.setNome("Lucas Urbano");
+        mobile.setDataNascimento(1985);
 
-        System.out.println("O nome é " + fulano.nome);
-        System.out.println(fulano.nome + " nasceu em " + fulano.DataNascimento);
+        System.out.println("O nome é " + mobile.getNome());
+        System.out.println("Nasceu em " + mobile.getDataNascimento());
     }
 }

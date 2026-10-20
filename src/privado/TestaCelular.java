@@ -3,7 +3,6 @@ package privado;
 public class TestaCelular {
     static void main(String[] args) {
         Celular mobile = new Celular("Iphone", "17Promax", 2025
-
                 );
 
         mobile.setMarca ("Iphone");
